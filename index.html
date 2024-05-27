@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luka Beg - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="resources/sls_icon.png">
+</head>
+<body>
+    <header>
+        <h1>About me - Luka Beg</h1>
+		<nav>
+            <ul class="nav-menu">
+                <li><a href="#main">Main</a></li>
+                <li><a href="#sls">SLS</a></li>
+				<li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="main" class="introduction">
+            <h2>Introduction</h2>
+            <p>Hello! My name is Luka Beg, and I come from Croatia. I am a student, but in my free time I work with programming and electrical engineering. I use C#, C++ and Python.</p>
+            <p>In my free time, I like to work in small solo projects and experiments in C++ and C#.</p>
+            <p>I have 6 years of experience in using the Unity Engine, and I have participated in a few game jams. My current priorities are country-level competitions in software development organized by the Croatian Education Agency (AZOO).</p>
+        </section>
+        <section id="sls" class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>SLS (Logic Gate Simulator)</h3>
+                <p>SLS was a project for the country-level software development competition in the school year 2023. SLS uses simple user interfaces, and simple options for all kinds of users to understand logic gates: from children, to even engineers!</p>
+                <div class="video">
+                    <h4>Screencast video</h4>
+                    <iframe width="600" height="360" src="https://www.youtube.com/embed/lDV3LPSFFxk?si=RRi1CKYsrC_UnrbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>SLS can be used in all kinds of applications: from schools and education institutions, to engineering offices and even for personal use.</p>
+                <p>If you are interested in using the SLS software, please contact me using my personal e-mail.</p>
+            </div>
+        </section>
+        <section id="resources" class="resources">
+            <h2>Project resources</h2>
+            <div class="documentation">
+                <h3>Documentation</h3>
+                <p>You can view my detailed project documentation <a href="resources/sls_dokumentacija_watermark.pdf" target="_blank">here</a> (in Croatian language).</p>
+            </div>
+            <div class="gallery">
+                <h3>Gallery</h3>
+                <div class="gallery-items">
+                    <a href="resources/sls1_img.png" class="gallery-item"><img src="resources/sls1_img.png" alt="SLS - Main menu screenshot example"></a>
+                    <a href="resources/sls2_img.png" class="gallery-item"><img src="resources/sls2_img.png" alt="SLS - Sandbox level screenshot example"></a>
+                    <a href="resources/sls3_img.png" class="gallery-item"><img src="resources/sls3_img.png" alt="SLS - Level creation wizard screenshot example"></a>
+                    <a href="resources/sls4_img.png" class="gallery-item"><img src="resources/sls4_img.png" alt="SLS - Challenge level screenshot example"></a>
+                    <a href="resources/sls5_img.png" class="gallery-item"><img src="resources/sls5_img.png" alt="SLS - Paused menu screenshot example"></a>
+                    <a href="resources/sls6_img.png" class="gallery-item"><img src="resources/sls6_img.png" alt="SLS - Gate example screenshot example"></a>
+                    <a href="resources/sls7_img.png" class="gallery-item"><img src="resources/sls7_img.png" alt="SLS - Truth table screenshot example"></a>
+                    <a href="resources/sls8_img.png" class="gallery-item"><img src="resources/sls8_img.png" alt="SLS - Right click menu screenshot example"></a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="social-media">
+            <h2>Contact</h2>
+            <div class="social-icons">
+                <h3>Social media</h3>
+                <a href="https://discord.com/channels/@me" class="social-icon">
+                    <img src="resources/button-icons/discord_icon.png" alt="Discord button icon">
+                    <span>@psychocoffee</span>
+                </a>
+                <a href="https://x.com/psychocoffeeee" class="social-icon">
+                    <img src="resources/button-icons/twitter_icon.png" alt="Twitter button icon">
+                    <span>Twitter</span>
+                </a>
+                <a href="https://www.reddit.com/user/psychocoffeeee" class="social-icon">
+                    <img src="resources/button-icons/reddit_icon.png" alt="Reddit button icon">
+                    <span>Reddit</span>
+                </a>
+                <a href="https://www.youtube.com/@lukabeg" class="social-icon">
+                    <img src="resources/button-icons/youtube_icon.png" alt="Youtube button icon">
+                    <span>Youtube</span>
+                </a>
+            </div>
+            <div class="contact">
+                <h3>Contact info</h3>
+                <a href="mailto:sls.podrska@gmail.com" class="contact-link">
+                    <img src="resources/button-icons/mail_icon.png" alt="Email button icon">
+                    <span>Email (SLS)</span>
+                </a>
+                <a href="mailto:begluka0@gmail.com" class="contact-link">
+                    <img src="resources/button-icons/mail_icon.png" alt="Email button icon">
+                    <span>Email (Personal)</span>
+                </a>
+            </div>
+        </section>
+    </div>
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>&copy; 2023-2024 Luka Beg. All rights reserved.</p>
+    <p>Designed and developed by Luka Beg</p>
+</footer>
+</html>
